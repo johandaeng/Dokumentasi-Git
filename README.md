@@ -12,7 +12,7 @@ $ git merge -> menggabungkan semua branch yang ada pada repositori.
 
 0. Daftar account di https://github.com dan buat repository dengan nama "myproject"
 1. Installasi Git
-   $ sudo apt install git
+   $ sudo apt install git   
 2. Konfigurasi Awal
    $ git config --global user.name "Johan Daeng"
    $ git config --global user.email johan@daeng.net
