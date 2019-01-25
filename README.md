@@ -26,7 +26,9 @@ Mengenal perintah dasar GIT
    - $ git status
 5. Menambahkan file project kita ke staged
    - $ git add *.html atau
-   - $ git add *
+   - $ git add * atau
+   - $ git add --all atau
+   - $ git add .
 6. Ubah file projet kita dari staged ke commited
    - $ git commit -m "myproject"
 7. Remote repository
@@ -35,7 +37,7 @@ Mengenal perintah dasar GIT
    - $ git pull origin master atau
    - $ git pull origin master --allow-unrelated-histories
 9. Mengirim ke repository kita
-   - $ git push origin master
+   - $ git push -u origin master
 10. Masukan usernama dan password saat diminta dan tunggu sampai project selesai di upload
 11. Cek project kita di github apakah sudah terupload
 
